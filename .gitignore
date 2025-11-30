@@ -1,0 +1,53 @@
+# Python / Django
+venv/
+.venv/
+env/
+ENV/
+.env
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+logs/
+*.log
+
+# Django migrations (optionally keep if you track them)
+# Uncomment if you don't track migrations
+# */migrations/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node (frontend inside this repo)
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Testing / coverage
+.coverage
+.pytest_cache/
+coverage/
+
+# Packaging
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# lockfiles (optional)
+# package-lock.json
